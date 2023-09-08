@@ -42,3 +42,23 @@
     text-transform: uppercase;
 }
 
+.content .btn{
+    margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width: 860px) {
+    .hero .content {
+        font-size: 3rem;
+        transform: translate(-50%, -250%);
+    }
+    .hero .content p {
+        font-size: 1.4rem;
+        font-weight: 200;
+        text-transform: uppercase;
+    }   
+    .into-img{
+      display: none;
+    }
+   
+   
+}
