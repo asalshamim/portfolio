@@ -8,7 +8,7 @@ const HeroImg = () => {
   return <div className="hero">
 
     <div className="mask">
-      <img className="into-img"src={IntroImg} alt="hero"/>
+      <img className="into-img" src={IntroImg} alt="hero"/>
 
     </div>
     <div className="content">
