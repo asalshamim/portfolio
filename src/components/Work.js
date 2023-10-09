@@ -1,9 +1,17 @@
 import "./WorkCardStyles.css";
+import movie from "../assets/Movie.png";
+import { NavLink } from "react-router-dom";
 
-import React from "react";
+const Work = (props) => {
+  return (
+    <div className="work-container">
+      <h1 className="project-heading">Projects</h1>
+      <div className="project-container">
+     
 
-const Work = () => {
-  return <div className="work-container"></div>;
+      </div>
+    </div>
+  );
 };
 
 export default Work;
