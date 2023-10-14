@@ -1,6 +1,6 @@
 import pro1 from "../assets/Movie.png";
 import pro2 from "../assets/shop2.png";
-import pro3 from "../assets/sportShop.png";
+import pro3 from "../assets/word1.png";
 const ProjectCardData = [
     {
         imgsrc: pro1,
@@ -18,7 +18,7 @@ const ProjectCardData = [
         imgsrc: pro3,
         title: "Movie releases",
         text: "Another schoolassignment made in React. A groupproject where we made an online store with both products and courses.",
-        view: "https://movie-app-psi-mauve.vercel.app/",
+        view: "https://wordgame-react.vercel.app/",
     },
 ];
 
