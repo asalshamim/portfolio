@@ -41,3 +41,30 @@
   
 }
 
+.project-heading{
+    color: aliceblue;
+    
+}
+.projectSkills{
+    color: rgb(30, 109, 178);
+    
+}
+
+
+@media (max-width: 767px) {
+    .img-container  {
+        width: 100%;
+        padding-left: 120px;
+        align-items: center;
+        text-align: center;
+    }
+   
+  }
+
+@media (min-width: 768px) and (max-width: 1124px) {
+    .img-container {
+      
+      padding-left: 150px;
+    }
+  }
+

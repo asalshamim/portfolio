@@ -1,0 +1,31 @@
+
+
+/* Style for the entire skills container */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center; 
+  margin-top: 20px;
+
+}
+
+/* Style for each skill icon and text */
+.tech-icons {
+  border: 1px solid rgb(210, 210, 238);
+  border-radius: 5px;
+  font-size: 2rem; 
+  margin: 10px;
+  color: #fff; 
+  text-align: center; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 20px;
+}
+
+/* Style for the text below the icon */
+.tech-text {
+  font-size: 0.8rem; 
+  margin-top: 5px; 
+}
