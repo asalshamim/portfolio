@@ -31,19 +31,39 @@ const Footer = () => {
         <div className="right">
     
           <div className="social">
+
+          <a
+              href="https://github.com/asalshamim"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <FaGithub
               size={30}
               style={{color:"#A3A5A5", marginRight:"1rem"}}
-            />
+              />
+              </a>
+
+                <a
+              href="https://www.linkedin.com/in/asal-s-6a19891b6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <FaLinkedin
               size={30}
               style={{color:"#A3A5A5", marginRight:"1rem"}}
-            />
-
+                />
+                </a>
+             <a
+              href="asalshamim8@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+             
             <FaEnvelope
               size={30}
               style={{color:"#A3A5A5", marginRight:"1rem"}}
-            />
+              />
+              </a>
             
           </div>
           

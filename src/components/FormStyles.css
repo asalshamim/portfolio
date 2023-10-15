@@ -15,4 +15,6 @@ form input, form textarea{
     padding: 10px 18px;
     font-size: 1.2rem;
     background-color: rgba(239, 210, 220, 0.1);
+    border-color: rgba(202, 228, 229, 0.488);
+    color: #f4f4f4;
 }

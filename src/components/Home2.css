@@ -1,0 +1,44 @@
+
+.home-about-section {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35px;
+    margin-bottom: 25px;
+  }
+ 
+  .home-about-description {
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  
+  .home-about-description h1 {
+    font-size: 2.6em;
+    color: #524f4f;
+  }
+  
+
+  .home-about-body {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #b1adad;
+  }
+  
+ 
+  .purple {
+    color: #761876;
+  }
+  
+ 
+
+@media (max-width: 767px) {
+    .home-about-section  {
+   margin-top: -65px;
+    }
+    .home-about-body {
+        font-size: 1.0em;
+        
+      }
+  }
