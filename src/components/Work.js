@@ -21,6 +21,7 @@ const Work = (props) => {
               text={val.text}
               view={val.view}
               source={val.source}
+              skills={val.skills}
             />
           );
         })}

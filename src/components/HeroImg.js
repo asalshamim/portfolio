@@ -16,9 +16,10 @@ const HeroImg = () => {
           <Link to="/project" className="btn">
             Projects
           </Link>
-          <Link to="/contact" className="btn btn-light">
-            Contact
-          </Link>
+          
+          <a href='https://asalshamim.vercel.app/' download className="btn btn-light">
+             ONLINE CV
+          </a>
         </div>
       </div>
     </div>

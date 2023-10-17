@@ -37,9 +37,11 @@ function Home2() {
                 <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
-          </div>
-      
         </div>
+        
+        
+      </div>
+      
        
     </div>
   );

@@ -49,6 +49,30 @@
 }
 
 
+.project-skills {
+    background: #3f3b3b;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: left;
+    margin-top: 1rem;
+  }
+  
+  .project-skills p {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .project-skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-skills li {
+    color: #fff;
+    margin-bottom: 0.3rem;
+  }
+  
+
 
 
 
