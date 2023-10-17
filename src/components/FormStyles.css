@@ -18,3 +18,24 @@ form input, form textarea{
     border-color: rgba(202, 228, 229, 0.488);
     color: #f4f4f4;
 }
+
+.alert {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 16px;
+    
+  }
+  
+  .success {
+    background-color: #4CAF50; 
+    color: white;
+    border-color: #4CAF50;
+  }
+  
+  .error {
+    background-color: #f44336; 
+    color: white;
+    border-color: #f44336;
+  }

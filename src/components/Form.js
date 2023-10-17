@@ -1,24 +1,47 @@
-import "./FormStyles.css";
-
-import React from "react";
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import './FormStyles.css';
 
 const Form = () => {
-  return <div className="form">
-    <form>
-      <label>Your Name</label>
-      <input type="text"></input>
+  const form = useRef();
+  const [alertMessage, setAlertMessage] = useState(null);
 
-      <label>Email</label>
-      <input type="email"></input>
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-      <label>Subject</label>
-      <input type="text"></input>
+    emailjs
+      .sendForm('service_shoi6wk', 'template_s9qzyfe', form.current, 'Lo-AprMgfwVVp1FkF')
+      .then((result) => {
+        console.log(result.text);
+        setAlertMessage("Message sent successfully!");
+      })
+      .catch((error) => {
+        console.error(error);
+        setAlertMessage("Message sending failed. Please try again.");
+      });
+  };
 
-      <label>Message</label>
-      <textarea rows="5" placeholder="Type your message here" />
-      <button className="btn">Submit</button>
-    </form>
-  </div>;
+  return (
+    <div className="form">
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" className="btn" />
+      </form>
+
+      {/* Display the alert message */}
+      {alertMessage && (
+        <div className={`alert ${alertMessage.includes("failed") ? 'error' : ''}`}>
+          {alertMessage}
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default Form;
+
