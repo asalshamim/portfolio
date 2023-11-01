@@ -2,6 +2,7 @@ import pro1 from "../assets/Movie.png";
 import pro2 from "../assets/shop2.png";
 import pro3 from "../assets/word1.png";
 import pro4 from "../assets/pro4.png";
+import pro5 from "../assets/pro5.png";
 const ProjectCardData = [
     {
         imgsrc: pro1,
@@ -34,6 +35,14 @@ const ProjectCardData = [
         view: "https://restaurant1-theta.vercel.app/",
         skills: ["React.js", "Front-end Development", "UI/UX Design"],
     },
+    {
+        imgsrc: pro5,
+        title: "The Weather Project",
+        text: "The Weather Project is an engaging web application that allows users to access real-time weather data for any location",
+        view: "https://weather-typescript-roan.vercel.app/",
+        source: "https://github.com/asalshamim/weather-typescript",
+        skills: ["TypeScript", "React.js", "Tailwind", "Fetch", "API"],
+    }, 
 ];
 
 export default ProjectCardData;
